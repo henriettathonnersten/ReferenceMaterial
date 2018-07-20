@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.jupiter.api.Test;
 
 import parametersAndConditionalsMain.ParametersAndConditionalTask;
+import parametersAndConditionalsMain.ParametersAndConditionalsMain;
 
 public class ParametersAndConditionalTaskTest {
 	
@@ -44,13 +45,12 @@ public class ParametersAndConditionalTaskTest {
 	}
 	
 	@Test
-	public void forLoopOverConditionalTest() {
-		ParametersAndConditionalTask pact = new ParametersAndConditionalTask();
-		
-		for(int i = 0; i<10;i++) {
-			assertEquals("Error in for loop conditional", pact.sum(10, i, false), i*10);
-		}
+	public void testingTheMainForCodeCoverage() {
+		ParametersAndConditionalsMain pacm = new ParametersAndConditionalsMain();
+		pacm.main(null);
 	}
+	
+
 	
 
 }
