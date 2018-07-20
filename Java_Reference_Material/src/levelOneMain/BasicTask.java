@@ -5,7 +5,6 @@ public class BasicTask {
 	
 	
 	public String getexampleVariable() {
-		// TODO Auto-generated method stub
 		return exampleVariable;
 	}
 
@@ -13,7 +12,6 @@ public class BasicTask {
 		return "Hello World!";
 	}
 	public void setexampleVariable(String toSet) {
-		// TODO Auto-generated method stub
 		exampleVariable = toSet;
 	}
 
